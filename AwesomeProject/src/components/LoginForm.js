@@ -7,8 +7,10 @@ import {
     TouchableOpacity
 } from 'react-native';
 
+import { withNavigation } from 'react-navigation';
+
 type Props = {};
-export default class Login extends Component<Props> {
+class Login extends Component<Props> {
 
     render() {
         return (
@@ -36,7 +38,11 @@ export default class Login extends Component<Props> {
                         placeholderTextColor='#000000'
                         secureTextEntry />
 
-                    <TouchableOpacity style={styles.buttonContainer}>
+                    <TouchableOpacity 
+                        style={styles.buttonContainer}
+                        onPress={()=>this.props.navigation.navigate('Profile')}
+                    
+                    >
                         <Text style={styles.buttonText}>LOGIN</Text>
                     </TouchableOpacity>
                 </View>
@@ -45,6 +51,9 @@ export default class Login extends Component<Props> {
         )
     }
 }
+
+export default withNavigation(Login);
+
 
 const styles = StyleSheet.create({
     container: {

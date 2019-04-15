@@ -6,21 +6,25 @@
  * @flow
  */
 
-import React, {Component} from 'react';
-import {StyleSheet, View} from 'react-native';
-import Login from './src/screens/Login';
+import React, { Component } from 'react';
+import { StyleSheet, View } from 'react-native';
+import AppContainer from './src/screens/AppContainer';
 
 
 
-export default class App extends Component {
+export default class App extends Component{
+
+  
+
   render() {
     return (
       <View style={styles.container}>
-      <Login />
-   </View>
+        <AppContainer/>
+      </View>
     );
   }
 }
+
 
 
 const styles = StyleSheet.create({
