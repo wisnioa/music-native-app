@@ -14,7 +14,12 @@ const MainNavigator = createStackNavigator(
   },
   {
     initialRouteName: "Home",
+  defaultNavigationOptions: {
+    headerStyle: {
+      backgroundColor: '#11dd1f',
+    },
   }
+}
 );
 
 const AppContainer = createAppContainer(MainNavigator);

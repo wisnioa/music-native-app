@@ -16,8 +16,6 @@
   "bugs": {
     "url": "https://github.com/wisnioa/music-native-app/issues"
   },
-  "homepage": "https://github.com/wisnioa/music-native-app#readme",
-  "dependencies": {
-    "nachos-ui": "^0.2.0-beta.1"
-  }
+  "homepage": "https://github.com/wisnioa/music-native-app#readme"
+  
 }

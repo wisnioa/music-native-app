@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
 import {
-    Text,
-    TextInput,
     View,
     StyleSheet,
-    TouchableOpacity
 } from 'react-native';
+
+import Shows from './Shows';
+import ProfileHeader from './ProfileHeader';
+import { ScrollView } from 'react-native-gesture-handler';
 
 
 export default class Profile extends Component {
@@ -13,7 +14,10 @@ export default class Profile extends Component {
     render() {
         return (
             <View style={styles.container}>
-                <Text style={styles.text}>Profile Components will go here!</Text>
+                <ProfileHeader/>
+                <ScrollView>
+                <Shows />
+                </ScrollView>
             </View>
         )
     }
@@ -25,7 +29,4 @@ const styles = StyleSheet.create({
         flex: 1,
         backgroundColor: '#11dd1f',
     },
-    text: {
-        fontSize: 25
-    }
 });
