@@ -13,6 +13,7 @@ type Props = {};
 class Login extends Component<Props> {
 
     render() {
+        const {navigate} = this.props.navigation;
         return (
             <View style={styles.container}>
                 <View style={styles.loginContainer}>
@@ -40,7 +41,7 @@ class Login extends Component<Props> {
 
                     <TouchableOpacity 
                         style={styles.buttonContainer}
-                        onPress={()=>this.props.navigation.navigate('Profile')}
+                        onPress={() => navigate('Auth')}
                     
                     >
                         <Text style={styles.buttonText}>LOGIN</Text>
