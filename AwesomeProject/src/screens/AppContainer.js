@@ -1,7 +1,7 @@
 import { createStackNavigator, createAppContainer } from 'react-navigation';
 import LoginScreen from './LoginScreen';
 import ProfileScreen from './ProfileScreen';
-import AuthScreen from './AuthScreen'
+import AuthScreen from './AuthScreen';
 
 
 
