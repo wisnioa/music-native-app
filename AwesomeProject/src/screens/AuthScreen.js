@@ -1,8 +1,10 @@
 import React, { Component } from 'react';
-import {View, Button, UIManager} from 'react-native';
+import {View, Button, UIManager, Text, Alert} from 'react-native';
 import { authorize, refresh, revoke } from 'react-native-app-auth';
+import { CLIENT_ID, REDIRECT_URI, CLIENT_SECRET } from 'react-native-dotenv';
 
-const credentials = require('../../credentials');
+
+
 
 UIManager.setLayoutAnimationEnabledExperimental &&
   UIManager.setLayoutAnimationEnabledExperimental(true);
@@ -16,13 +18,13 @@ type State = {
 
 const config = {
   issuer: 'https://accounts.spotify.com/authorize?',
-  clientId: credentials.clientId,
-  redirectUrl: credentials.redirectUrl,
-  clientSecret: credentials.clientSecret,
+  clientId: CLIENT_ID,
+  redirectUrl: REDIRECT_URI,
+  clientSecret: CLIENT_SECRET,
   scopes: ['user-library-read','app-remote-control']
 };
 
-export default class Auth extends Component <{}, State>{
+export default class Auth extends Component <{}, State> {
   
   state = {
     hasLoggedInOnce: false,
@@ -94,6 +96,7 @@ export default class Auth extends Component <{}, State>{
   };
 
     render(){
+      const {state} = this;
         return(
             <View>
             {!!state.accessToken ? (
@@ -113,13 +116,13 @@ export default class Auth extends Component <{}, State>{
       
               <View>
                 {!state.accessToken ? (
-                  <Button onPress={this.authorize} text="Authorize" color="#DA2536" />
+                  <Button onPress={this.authorize} title="Authorize" text="Authorize" color="#DA2536" />
                 ) : null}
                 {!!state.refreshToken ? (
-                  <Button onPress={this.refresh} text="Refresh" color="#24C2CB" />
+                  <Button onPress={this.refresh} title="Refresh" text="Refresh" color="#24C2CB" />
                 ) : null}
                 {!!state.accessToken ? (
-                  <Button onPress={this.revoke} text="Revoke" color="#EF525B" />
+                  <Button onPress={this.revoke} title="Revoke" text="Revoke" color="#EF525B" />
                 ) : null}
               </View>
             </View>
