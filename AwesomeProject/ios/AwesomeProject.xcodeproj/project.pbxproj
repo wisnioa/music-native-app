@@ -39,11 +39,10 @@
 		ADBDB9381DFEBF1600ED6528 /* libRCTBlob.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ADBDB9271DFEBF0700ED6528 /* libRCTBlob.a */; };
 		ED297163215061F000B7C4FE /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED297162215061F000B7C4FE /* JavaScriptCore.framework */; };
 		ED2971652150620600B7C4FE /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED2971642150620600B7C4FE /* JavaScriptCore.framework */; };
-		15A390752C604EF6A77A32D7 /* libRNGestureHandler.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8212BA13E517473689143F1A /* libRNGestureHandler.a */; };
-		98065B6C71AF46818F09F6D8 /* libRNGestureHandler-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 39EDB0577B084CE79F53AA3C /* libRNGestureHandler-tvOS.a */; };
-		7D0CCBF092B444008DE016FB /* libRNAppAuth.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DFF4EC842E644D909C7579A0 /* libRNAppAuth.a */; };
-		37EBB33187644BB0838CC52B /* libRNEventEmitter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FAEDC5F697ED422FB0682577 /* libRNEventEmitter.a */; };
-		69FD8DB03A0948FFAB998818 /* libRNSpotify.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C0F473D293F4519BCA85EB7 /* libRNSpotify.a */; };
+		FE10615461EA4B82B582E23C /* libRNGestureHandler.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D544F8CE193B4639B8C3CB44 /* libRNGestureHandler.a */; };
+		9EBEB483CFF8438CA6121D9E /* libRNGestureHandler-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 82744AE0E1F94C27A1B493AE /* libRNGestureHandler-tvOS.a */; };
+		A8B7F032E07349EB85A3C890 /* libRNSpotify.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C2A29A52DE0F4F21A8DA276E /* libRNSpotify.a */; };
+		5E0956244E4B45C7BB49A2C2 /* libRNEventEmitter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FEDE1D944E44A7AB03053DE /* libRNEventEmitter.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -351,15 +350,13 @@
 		ADBDB91F1DFEBF0600ED6528 /* RCTBlob.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTBlob.xcodeproj; path = "../node_modules/react-native/Libraries/Blob/RCTBlob.xcodeproj"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
-		0E04CBB721884ABEB4A325FD /* RNGestureHandler.xcodeproj */ = {isa = PBXFileReference; name = "RNGestureHandler.xcodeproj"; path = "../node_modules/react-native-gesture-handler/ios/RNGestureHandler.xcodeproj"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.pb-project; explicitFileType = undefined; includeInIndex = 0; };
-		8212BA13E517473689143F1A /* libRNGestureHandler.a */ = {isa = PBXFileReference; name = "libRNGestureHandler.a"; path = "libRNGestureHandler.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
-		39EDB0577B084CE79F53AA3C /* libRNGestureHandler-tvOS.a */ = {isa = PBXFileReference; name = "libRNGestureHandler-tvOS.a"; path = "libRNGestureHandler-tvOS.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
-		C5226C9567804F8582248E12 /* RNAppAuth.xcodeproj */ = {isa = PBXFileReference; name = "RNAppAuth.xcodeproj"; path = "../node_modules/react-native-app-auth/ios/RNAppAuth.xcodeproj"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.pb-project; explicitFileType = undefined; includeInIndex = 0; };
-		DFF4EC842E644D909C7579A0 /* libRNAppAuth.a */ = {isa = PBXFileReference; name = "libRNAppAuth.a"; path = "libRNAppAuth.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
-		76DC49776E934D62848F641E /* RNEventEmitter.xcodeproj */ = {isa = PBXFileReference; name = "RNEventEmitter.xcodeproj"; path = "../node_modules/react-native-events/ios/RNEventEmitter.xcodeproj"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.pb-project; explicitFileType = undefined; includeInIndex = 0; };
-		FAEDC5F697ED422FB0682577 /* libRNEventEmitter.a */ = {isa = PBXFileReference; name = "libRNEventEmitter.a"; path = "libRNEventEmitter.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
-		5D3FCF7B80E64C8E93C0A1B4 /* RNSpotify.xcodeproj */ = {isa = PBXFileReference; name = "RNSpotify.xcodeproj"; path = "../node_modules/rn-spotify-sdk/ios/RNSpotify.xcodeproj"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.pb-project; explicitFileType = undefined; includeInIndex = 0; };
-		6C0F473D293F4519BCA85EB7 /* libRNSpotify.a */ = {isa = PBXFileReference; name = "libRNSpotify.a"; path = "libRNSpotify.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
+		8E950593A938483A8970B12F /* RNGestureHandler.xcodeproj */ = {isa = PBXFileReference; name = "RNGestureHandler.xcodeproj"; path = "../node_modules/react-native-gesture-handler/ios/RNGestureHandler.xcodeproj"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.pb-project; explicitFileType = undefined; includeInIndex = 0; };
+		D544F8CE193B4639B8C3CB44 /* libRNGestureHandler.a */ = {isa = PBXFileReference; name = "libRNGestureHandler.a"; path = "libRNGestureHandler.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
+		82744AE0E1F94C27A1B493AE /* libRNGestureHandler-tvOS.a */ = {isa = PBXFileReference; name = "libRNGestureHandler-tvOS.a"; path = "libRNGestureHandler-tvOS.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
+		34F7D2DD8D9F4C70BA3B987B /* RNSpotify.xcodeproj */ = {isa = PBXFileReference; name = "RNSpotify.xcodeproj"; path = "../node_modules/rn-spotify-sdk/ios/RNSpotify.xcodeproj"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.pb-project; explicitFileType = undefined; includeInIndex = 0; };
+		C2A29A52DE0F4F21A8DA276E /* libRNSpotify.a */ = {isa = PBXFileReference; name = "libRNSpotify.a"; path = "libRNSpotify.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
+		7B9649EDA95B4A8A95E47245 /* RNEventEmitter.xcodeproj */ = {isa = PBXFileReference; name = "RNEventEmitter.xcodeproj"; path = "../node_modules/react-native-events/ios/RNEventEmitter.xcodeproj"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.pb-project; explicitFileType = undefined; includeInIndex = 0; };
+		6FEDE1D944E44A7AB03053DE /* libRNEventEmitter.a */ = {isa = PBXFileReference; name = "libRNEventEmitter.a"; path = "libRNEventEmitter.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -388,10 +385,9 @@
 				832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */,
 				00C302EA1ABCBA2D00DB3ED1 /* libRCTVibration.a in Frameworks */,
 				139FDEF61B0652A700C62182 /* libRCTWebSocket.a in Frameworks */,
-				15A390752C604EF6A77A32D7 /* libRNGestureHandler.a in Frameworks */,
-				7D0CCBF092B444008DE016FB /* libRNAppAuth.a in Frameworks */,
-				37EBB33187644BB0838CC52B /* libRNEventEmitter.a in Frameworks */,
-				69FD8DB03A0948FFAB998818 /* libRNSpotify.a in Frameworks */,
+				FE10615461EA4B82B582E23C /* libRNGestureHandler.a in Frameworks */,
+				A8B7F032E07349EB85A3C890 /* libRNSpotify.a in Frameworks */,
+				5E0956244E4B45C7BB49A2C2 /* libRNEventEmitter.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -408,7 +404,7 @@
 				2D02E4C61E0B4AEC006451C7 /* libRCTSettings-tvOS.a in Frameworks */,
 				2D02E4C71E0B4AEC006451C7 /* libRCTText-tvOS.a in Frameworks */,
 				2D02E4C81E0B4AEC006451C7 /* libRCTWebSocket-tvOS.a in Frameworks */,
-				98065B6C71AF46818F09F6D8 /* libRNGestureHandler-tvOS.a in Frameworks */,
+				9EBEB483CFF8438CA6121D9E /* libRNGestureHandler-tvOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -582,10 +578,9 @@
 				832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */,
 				00C302DF1ABCB9EE00DB3ED1 /* RCTVibration.xcodeproj */,
 				139FDEE61B06529A00C62182 /* RCTWebSocket.xcodeproj */,
-				0E04CBB721884ABEB4A325FD /* RNGestureHandler.xcodeproj */,
-				C5226C9567804F8582248E12 /* RNAppAuth.xcodeproj */,
-				76DC49776E934D62848F641E /* RNEventEmitter.xcodeproj */,
-				5D3FCF7B80E64C8E93C0A1B4 /* RNSpotify.xcodeproj */,
+				8E950593A938483A8970B12F /* RNGestureHandler.xcodeproj */,
+				34F7D2DD8D9F4C70BA3B987B /* RNSpotify.xcodeproj */,
+				7B9649EDA95B4A8A95E47245 /* RNEventEmitter.xcodeproj */,
 			);
 			name = Libraries;
 			sourceTree = "<group>";
@@ -1214,13 +1209,15 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)\..\node_modules\react-native-gesture-handler\ios/**",
-					"$(SRCROOT)\..\node_modules\react-native-app-auth\ios",
-					"$(SRCROOT)\..\node_modules\react-native-events\ios",
 					"$(SRCROOT)\..\node_modules\rn-spotify-sdk\ios/**",
+					"$(SRCROOT)\..\node_modules\react-native-events\ios",
 				);
 			};
 			name = Debug;
@@ -1243,13 +1240,15 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)\..\node_modules\react-native-gesture-handler\ios/**",
-					"$(SRCROOT)\..\node_modules\react-native-app-auth\ios",
-					"$(SRCROOT)\..\node_modules\react-native-events\ios",
 					"$(SRCROOT)\..\node_modules\rn-spotify-sdk\ios/**",
+					"$(SRCROOT)\..\node_modules\react-native-events\ios",
 				);
 			};
 			name = Release;
@@ -1273,9 +1272,8 @@
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)\..\node_modules\react-native-gesture-handler\ios/**",
-					"$(SRCROOT)\..\node_modules\react-native-app-auth\ios",
-					"$(SRCROOT)\..\node_modules\react-native-events\ios",
 					"$(SRCROOT)\..\node_modules\rn-spotify-sdk\ios/**",
+					"$(SRCROOT)\..\node_modules\react-native-events\ios",
 				);
 			};
 			name = Debug;
@@ -1298,9 +1296,8 @@
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)\..\node_modules\react-native-gesture-handler\ios/**",
-					"$(SRCROOT)\..\node_modules\react-native-app-auth\ios",
-					"$(SRCROOT)\..\node_modules\react-native-events\ios",
 					"$(SRCROOT)\..\node_modules\rn-spotify-sdk\ios/**",
+					"$(SRCROOT)\..\node_modules\react-native-events\ios",
 				);
 			};
 			name = Release;
@@ -1331,13 +1328,15 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)\..\node_modules\react-native-gesture-handler\ios/**",
-					"$(SRCROOT)\..\node_modules\react-native-app-auth\ios",
-					"$(SRCROOT)\..\node_modules\react-native-events\ios",
 					"$(SRCROOT)\..\node_modules\rn-spotify-sdk\ios/**",
+					"$(SRCROOT)\..\node_modules\react-native-events\ios",
 				);
 			};
 			name = Debug;
@@ -1368,13 +1367,15 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)\..\node_modules\react-native-gesture-handler\ios/**",
-					"$(SRCROOT)\..\node_modules\react-native-app-auth\ios",
-					"$(SRCROOT)\..\node_modules\react-native-events\ios",
 					"$(SRCROOT)\..\node_modules\rn-spotify-sdk\ios/**",
+					"$(SRCROOT)\..\node_modules\react-native-events\ios",
 				);
 			};
 			name = Release;
@@ -1404,13 +1405,15 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)\..\node_modules\react-native-gesture-handler\ios/**",
-					"$(SRCROOT)\..\node_modules\react-native-app-auth\ios",
-					"$(SRCROOT)\..\node_modules\react-native-events\ios",
 					"$(SRCROOT)\..\node_modules\rn-spotify-sdk\ios/**",
+					"$(SRCROOT)\..\node_modules\react-native-events\ios",
 				);
 			};
 			name = Debug;
@@ -1440,13 +1443,15 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)\..\node_modules\react-native-gesture-handler\ios/**",
-					"$(SRCROOT)\..\node_modules\react-native-app-auth\ios",
-					"$(SRCROOT)\..\node_modules\react-native-events\ios",
 					"$(SRCROOT)\..\node_modules\rn-spotify-sdk\ios/**",
+					"$(SRCROOT)\..\node_modules\react-native-events\ios",
 				);
 			};
 			name = Release;

@@ -13,6 +13,7 @@ const MainNavigator = createStackNavigator(
     Home: LoginScreen,
     Profile: ProfileScreen,
     Auth: AuthScreen,
+  
   },
   {
     initialRouteName: "Home",
