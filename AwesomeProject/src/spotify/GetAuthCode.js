@@ -22,10 +22,10 @@ export default getAuthorizeCode = () => {
     const authorizationCode = [];
     axios.get(`${authorizeURL}`)
         .then(function (response) {
-            
+
             // handle success
             console.log(response);
-            return authorizationCode.push(response.params.code);
+            authorizationCode.push(response.params.code);
 
         })
         .catch(function (error) {
@@ -35,4 +35,5 @@ export default getAuthorizeCode = () => {
         .finally(function () {
             // always executed
         });
+    return authorizationCode;
 }

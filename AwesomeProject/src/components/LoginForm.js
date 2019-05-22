@@ -41,7 +41,7 @@ class Login extends Component<Props> {
 
                     <TouchableOpacity 
                         style={styles.buttonContainer}
-                        onPress={() => navigate('Home') }
+                        onPress={() => navigate('Auth') }
                     
                     >
                         <Text style={styles.buttonText}>LOGIN</Text>
