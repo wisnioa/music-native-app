@@ -6,7 +6,7 @@ import { createSwitchNavigator, createStackNavigator, createAppContainer } from 
 // Implementation of HomeScreen, OtherScreen, SignInScreen, AuthLoadingScreen
 // goes here.
 
-const AppStack = createStackNavigator({ Home: ProfileScreen, Other: OtherScreen });
+const AppStack = createStackNavigator({ Home: ProfileScreen});
 const AuthStack = createStackNavigator({ SignIn: LoginScreen });
 
 
