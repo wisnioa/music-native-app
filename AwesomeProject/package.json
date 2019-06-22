@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "asyncstorage-down": "^4.2.0",
-    "axios": "^0.18.0",
+    "axios": "^0.18.1",
     "path": "^0.12.7",
     "path-browserify": "0.0.0",
     "react": "16.8.3",
