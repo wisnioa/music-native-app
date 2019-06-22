@@ -25,7 +25,8 @@
     "readable-stream": "^1.0.33",
     "rn-nodeify": "^10.0.1",
     "spotify-web-api-node": "^4.0.0",
-    "stream-browserify": "^1.0.0"
+    "stream-browserify": "^1.0.0",
+    "bl": ">=0.9.5"
   },
   "devDependencies": {
     "@babel/core": "^7.4.3",
