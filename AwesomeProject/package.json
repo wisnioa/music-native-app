@@ -8,8 +8,16 @@
     "postinstall": "rn-nodeify --install fs, path, asyncstorage-down, stream --hack"
   },
   "dependencies": {
+    "apollo-client-preset": "^1.0.8",
+    "apollo-server-express": "^2.6.7",
     "asyncstorage-down": "^4.2.0",
     "axios": "^0.18.1",
+    "bl": ">=0.9.5",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "graphql": "^14.4.0",
+    "graphql-tag": "^2.10.1",
+    "graphql-tools": "^4.0.5",
     "path": "^0.12.7",
     "path-browserify": "0.0.0",
     "react": "16.8.3",
@@ -25,8 +33,7 @@
     "readable-stream": "^1.0.33",
     "rn-nodeify": "^10.0.1",
     "spotify-web-api-node": "^4.0.0",
-    "stream-browserify": "^1.0.0",
-    "bl": ">=0.9.5"
+    "stream-browserify": "^1.0.0"
   },
   "devDependencies": {
     "@babel/core": "^7.4.3",

@@ -1,23 +1,9 @@
-const express = require("express");
-const app = express();
+const express = require('express');
+const bodyParser = require('body-parser');
+const { graphqlExpress, graphiqlExpress } = require('apollo-server-express');
+const { makeExecutableSchema } = require('graphql-tools');
+const schema = require('./schema/schema');
+const resolvers = require('./resolvers/resolver');
 
-const getTokens = require("../AwesomeProject/spotify/GetTokens.js");
-
-
-
-
-
-
- // Fetch the token from storage then navigate to our appropriate place
-//  loadingAsync = () => {
-    
-    // const userToken = GetTokens();
-
-  //   // This will switch to the App screen or Auth screen and this loading
-  //   // screen will be unmounted and thrown away.
-    // this.props.navigation.navigate(userToken ? 'Authloading' : 'App');
-//   };
-
-
-
+const getTokens = require('./spotify/GetTokens');
 
