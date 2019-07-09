@@ -71,17 +71,17 @@ export default getTokens = () => {
         .catch(function (err) {
             console.log('Something went wrong', err.message);
         });
-    // spotifyApi.refreshAccessToken().then(
-    //     function (data) {
-    //         console.log('The access token has been refreshed!');
+    spotifyApi.refreshAccessToken().then(
+        function (data) {
+            console.log('The access token has been refreshed!');
 
-    //         // Save the access token so that it's used in future calls
-    //         spotifyApi.setAccessToken(data.body['access_token']);
-    //     },
-    //     function (err) {
-    //         console.log('Could not refresh access token', err);
-    //     }
-    // );
+            // Save the access token so that it's used in future calls
+            spotifyApi.setAccessToken(data.body['access_token']);
+        },
+        function (err) {
+            console.log('Could not refresh access token', err);
+        }
+    );
 
 }
 

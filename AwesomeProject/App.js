@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import { StyleSheet, View, Platform } from 'react-native';
 import AppContainer from './src/screens/AppContainer';
 
-import { Platform } from 'react-native';
 //import your ApolloProvider from react-apollo to wrap your app.
 import { ApolloProvider } from 'react-apollo';
 //import ApolloClient, InMemoryCache, and HttpLink to define your client to cnnect to your graphql server.//#endregion
