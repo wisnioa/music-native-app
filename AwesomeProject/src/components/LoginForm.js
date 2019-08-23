@@ -27,7 +27,7 @@ class Login extends Component<Props> {
                         autoCorrect={false}
                         keyboardType='email-address'
                         returnKeyType="next"
-                        placeholder='Email or Mobile Num'
+                        placeholder='Email'
                         placeholderTextColor='#000000' />
 
                     <TextInput style={styles.input}
@@ -81,7 +81,7 @@ const styles = StyleSheet.create({
         backgroundColor: 'rgba(225,225,225,0.2)',
         marginBottom: 10,
         padding: 10,
-        color: '#fff'
+        color: '#000000'
     },
     buttonContainer:{
         backgroundColor: '#000000',
