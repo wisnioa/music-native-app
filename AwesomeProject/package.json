@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "apollo-client-preset": "^1.0.8",
-    "apollo-server-express": "^2.6.7",
+    "apollo-server-express": "^2.14.2",
     "asyncstorage-down": "^4.2.0",
     "axios": "^0.18.1",
     "bl": ">=0.9.5",
