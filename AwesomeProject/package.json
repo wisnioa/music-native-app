@@ -12,7 +12,7 @@
     "apollo-server-express": "^2.6.7",
     "asyncstorage-down": "^4.2.0",
     "axios": "^0.18.1",
-    "bl": ">=0.9.5",
+    "bl": ">=3.0.1",
     "body-parser": "^1.19.0",
     "express": "^4.17.1",
     "graphql": "^14.4.0",
