@@ -11,7 +11,7 @@
     "apollo-client-preset": "^1.0.8",
     "apollo-server-express": "^2.6.7",
     "asyncstorage-down": "^4.2.0",
-    "axios": "^0.18.1",
+    "axios": "^0.21.1",
     "bl": ">=0.9.5",
     "body-parser": "^1.19.0",
     "express": "^4.17.1",
