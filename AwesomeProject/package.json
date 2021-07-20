@@ -22,7 +22,7 @@
     "path-browserify": "0.0.0",
     "react": "16.8.3",
     "react-apollo": "^2.5.8",
-    "react-native": "0.59.3",
+    "react-native": "0.62.3",
     "react-native-dotenv": "^0.2.0",
     "react-native-events": "^1.0.15",
     "react-native-fs": "^2.13.3",
